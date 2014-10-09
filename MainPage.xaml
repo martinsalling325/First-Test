@@ -9,6 +9,7 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <TextBlock HorizontalAlignment="Left" Margin="585,76,0,0" TextWrapping="Wrap" Text="TEST" VerticalAlignment="Top" FontSize="42"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="585,194,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>
