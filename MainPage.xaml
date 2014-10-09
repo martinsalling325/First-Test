@@ -10,6 +10,7 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <TextBlock HorizontalAlignment="Left" Margin="585,76,0,0" TextWrapping="Wrap" Text="TEST" VerticalAlignment="Top" FontSize="42"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="585,194,0,0" VerticalAlignment="Top" Background="#FF1BCE31"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="585,284,0,0" VerticalAlignment="Top" Width="100" Source="Assets/Logo.png"/>
 
     </Grid>
 </Page>
