@@ -9,9 +9,10 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,2,0,-2">
         <TextBlock HorizontalAlignment="Left" Margin="585,76,0,0" TextWrapping="Wrap" Text="TEST" VerticalAlignment="Top" FontSize="42"/>
-        <Button x:Name="Button1" Content="Button" HorizontalAlignment="Left" Margin="585,194,0,0" VerticalAlignment="Top" Background="#FF1BCE31" Click="Button1_Click"/>
+        <Button x:ConnectionId='1' x:Name="Button1" Content="Button" HorizontalAlignment="Left" Margin="585,194,0,0" VerticalAlignment="Top" Background="#FF1BCE31"                      />
         <Image HorizontalAlignment="Left" Height="300" Margin="585,284,0,0" VerticalAlignment="Top" Width="300" Source="Assets/Biler.png"/>
-        <CheckBox x:Name="checkBox1" Content="CheckBox" HorizontalAlignment="Left" Margin="734,200,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
+        <CheckBox x:ConnectionId='2' x:Name="checkBox1" Content="CheckBox" HorizontalAlignment="Left" Margin="734,200,0,0" VerticalAlignment="Top"                           />
 
     </Grid>
 </Page>
+

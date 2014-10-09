@@ -26,5 +26,21 @@ namespace GitTest
         {
             this.InitializeComponent();
         }
+
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            
+            
+        }
+
+        private void Button1_Click(object sender, RoutedEventArgs e)
+        {
+            if (checkBox1.IsChecked == false)
+            {
+                Button1.Opacity = 
+
+            }
+            
+        }
     }
 }
